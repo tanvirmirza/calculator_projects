@@ -5,7 +5,13 @@ const kPrimaryColor = Color(0xFF022C43);
 
 //Card color
 const kActiveCardColor = Color(0xFF115173);
-const kInActiveCardColor = Color(0xFF1A7AAE);
+
+const kMaleActiveCardColor = Color.fromRGBO(26, 119, 169, 1);
+const kMaleInActiveCardColor = Color(0xFF115173);
+
+
+const kFemaleActiveCardColor = Color.fromRGBO(144, 8, 126, 1);
+const kFemaleInActiveCardColor = Color.fromRGBO(94, 5, 82, 1);
 
 const kButtonColor = Color(0xFF00A8CC);
 

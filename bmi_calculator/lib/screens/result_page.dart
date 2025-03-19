@@ -17,19 +17,16 @@ class ResultPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.orange[50],
+       appBar: AppBar(
+          title: const Text("BMI Results"),
+          elevation: 0,
+        ),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const Expanded(
-              child: Center(
-                child: Text(
-                  'Your Results',
-                  style: kTitleTextStyle,
-                ),
-              ),
-            ),
+           
             Expanded(
               flex: 5,
               child: ReusableCard(
